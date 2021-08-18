@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Addons.Hosting" Version="4.0.2" />
+    <PackageReference Include="Discord.Net" Version="2.4.0" />
+    <PackageReference Include="Discord.Net.Commands" Version="2.4.0" />
+    <PackageReference Include="Discord.Net.Core" Version="2.4.0" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="2.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="NetEscapades.Configuration.Yaml" Version="2.1.0" />
+    <PackageReference Include="Polly" Version="7.2.2" />
+    <PackageReference Include="Victoria" Version="5.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

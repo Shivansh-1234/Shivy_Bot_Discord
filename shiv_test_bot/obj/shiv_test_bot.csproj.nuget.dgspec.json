@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\karti\\source\\repos\\shiv_test_bot\\shiv_test_bot\\shiv_test_bot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\karti\\source\\repos\\shiv_test_bot\\shiv_test_bot\\shiv_test_bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karti\\source\\repos\\shiv_test_bot\\shiv_test_bot\\shiv_test_bot.csproj",
+        "projectName": "shiv_test_bot",
+        "projectPath": "C:\\Users\\karti\\source\\repos\\shiv_test_bot\\shiv_test_bot\\shiv_test_bot.csproj",
+        "packagesPath": "C:\\Users\\karti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karti\\source\\repos\\shiv_test_bot\\shiv_test_bot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\karti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Discord.Addons.Hosting": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "NetEscapades.Configuration.Yaml": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Victoria": {
+              "target": "Package",
+              "version": "[5.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
