@@ -58,26 +58,12 @@ namespace shiv_test_bot.Modules
                 "\n11.  leave" +
                 "\n" +
                 "\nOther Commands" +
-                "\n12.  anime -- Suggests a random anime" +
-                "\n13.  joseph")
+                "\n12.  anime -- Suggests a random anime")
                 .WithColor(Color.Red)
                 .Build();
 
             await ReplyAsync(embed:embed);
-        }
-
-        [Command("joseph")]
-        public async Task JosephAsync()
-        {
-            var embed = new EmbedBuilder()
-                .WithImageUrl("https://previews.123rf.com/images/pivden/pivden1704/pivden170400006/75374369-middle-finger-sign-by-male-hand.jpg")
-                .WithDescription("MAA CHUDA")
-                .WithColor(Color.Red)
-                .Build();
-
-
-            await ReplyAsync(embed:embed);
-        }
+        }        
 
         [Command("info")]
         public async Task InfoAsync(SocketGuildUser sgu = null)
